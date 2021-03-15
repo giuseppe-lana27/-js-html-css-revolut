@@ -9,6 +9,9 @@ header{
   align-items: center;
   margin: 20px 40px;
 }
+nav{
+  line-height: 30px;
+}
 .list-inline{
   list-style: none;
   display: flex;
@@ -18,8 +21,15 @@ header{
   text-decoration: none;
   color: #000;
 }
+.logo{
+  margin-right: 20px;
+}
+.logo img{
+  height: 30px;
+}
 .main-nav ul li a{
   opacity: 0.5;
+  vertical-align: middle;  
 }
 .main-nav a:hover{
   opacity: 1;
@@ -34,10 +44,27 @@ header{
   left: 0;
   background-color: #fff;
   border-radius: 5px;
+  width: 150px;
 }
 .dropdown-menu ul{
   list-style: none;
 }
 .dropdown-menu ul li{
   margin-top: 15px;
+}
+.btn{
+  padding: 10px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 10px;  l
+}
+.btn-white:hover{
+  background-color: #dcdcdc;
+}
+.btn-black{
+  background-color: #000;
+  color: #fff;
+}
+.btn:focus{
+  outline: none;
 }
