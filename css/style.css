@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.list-inline{
+  list-style: none;
+  display: flex;
+}
+.list-inline li a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-nav ul li a{
+  color: lightgrey;
+}
+
+.main-nav a:hover{
+  color: #000;
+}
